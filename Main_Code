@@ -41,10 +41,10 @@ function draw() {
   
     // your automated code goes here:
 if (arm_angle < angle){
-  arm_torque = arm_torque + 5
+  arm_torque = arm_torque + 2
 }
 else{
-  arm_torque = arm_torque - 5
+  arm_torque = arm_torque - 4
 }
 }
 
